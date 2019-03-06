@@ -11,6 +11,9 @@
 #https://developers.google.com/maps/documentation/geocoding/start
 #https://developers.google.com/maps/documentation/javascript/importing_data
 #https://cloud.google.com/shell/docs/using-web-preview
+#https://console.cloud.google.com/cloudshell/editor?project=checkngo-1551456090086&authuser=1&folder&organizationId
+#https://codelabs.developers.google.com/codelabs/nyc-subway-station-locator/#5
+#https://stackoverflow.com/questions/9340800/detect-the-nearest-transit-stop-from-the-given-location
 
 ##shotgun -p $PORT -o $IP
 
@@ -20,3 +23,5 @@
 # subway station locator
 # https://developers.google.com/maps/solutions/store-locator/nyc-subway-locator
 #https://console.cloud.google.com/home/activity?cloudshell=true&project=checkngo-1551456090086
+#map https://developers.google.com/maps/documentation/javascript/datalayer
+#https://github.com/alexreisner/geocoder

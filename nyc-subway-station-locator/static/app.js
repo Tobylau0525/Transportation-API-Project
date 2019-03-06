@@ -129,8 +129,8 @@ const routeColors = {
 
 // initMap is called from the Google Maps JS library after the library has initialised itself.
 function initMap() {
-  const map = new google.maps.Map(document.querySelector('#map'), {
-    zoom: 12,
+  const map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
     center: {
       // New York City
       lat: 40.7305,
@@ -139,7 +139,13 @@ function initMap() {
     styles: mapStyle
   });
   const infowindow = new google.maps.InfoWindow();
+  
+  
   let stationDataFeatures = [];
+  
+  
+  
+  
 
   // Load GeoJSON for subway lines. Stations are loaded in the idle callback.
   map.data.loadGeoJson('/data/subway-lines');

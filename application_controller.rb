@@ -18,5 +18,8 @@ class ApplicationController < Sinatra::Base
     erb :result
   end
   
+  post '/location' do
+  puts params
+end
   
 end

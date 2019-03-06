@@ -18,14 +18,11 @@
     </script>
   </head>
   <body>
-    
-    <div class="container-fluid">
-      <h1>Search around me</h1>
-     <form method="post" action="/result">
-       Your location: <input type="text" name="Current_location" size="25"><br>
-       <input type="submit" value="Bus stop / Subway station near me">
-       
-       </form>
+    <h1>Location Finder</h1>
+       <form method="POST" action="/location">
+        <p>Your location:<input type="text" name="location"></p>
+        <input type="submit">
+      </form>
    
     </div>
     
